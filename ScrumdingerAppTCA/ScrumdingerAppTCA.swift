@@ -1,10 +1,19 @@
+import ComposableArchitecture
 import SwiftUI
 
 @main
 struct ScrumdingerAppTCA: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                StandupListView(
+                    store: Store(
+                        initialState: StandupsListFeature.State(standups: [.mock])
+                    ) {
+                        StandupsListFeature()
+                    }
+                )
+            }
         }
     }
 }
