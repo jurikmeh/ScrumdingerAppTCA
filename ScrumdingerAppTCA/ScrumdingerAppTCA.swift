@@ -6,11 +6,17 @@ struct ScrumdingerAppTCA: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                StandupListView(
+                StandupsListView(
                     store: Store(
-                        initialState: StandupsListFeature.State(standups: [.mock])
+                        initialState: StandupsListFeature.State(
+                            addStandup: StandupFormFeature.State(
+                                focus: .attendee(Standup.mock.attendees[0].id),
+                                standup: .mock
+                            )
+                        )
                     ) {
                         StandupsListFeature()
+                            ._printChanges()
                     }
                 )
             }

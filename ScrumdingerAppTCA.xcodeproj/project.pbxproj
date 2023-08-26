@@ -12,13 +12,15 @@
 		0BEE22762A9A1BDD0023C881 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22642A9A1BDD0023C881 /* ThemePicker.swift */; };
 		0BEE22772A9A1BDD0023C881 /* StandupFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22672A9A1BDD0023C881 /* StandupFormView.swift */; };
 		0BEE22782A9A1BDD0023C881 /* StandupFormFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22682A9A1BDD0023C881 /* StandupFormFeature.swift */; };
-		0BEE22792A9A1BDD0023C881 /* StandupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226A2A9A1BDD0023C881 /* StandupListView.swift */; };
-		0BEE227A2A9A1BDD0023C881 /* StandupListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226B2A9A1BDD0023C881 /* StandupListFeature.swift */; };
+		0BEE22792A9A1BDD0023C881 /* StandupsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226A2A9A1BDD0023C881 /* StandupsListView.swift */; };
+		0BEE227A2A9A1BDD0023C881 /* StandupsListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226B2A9A1BDD0023C881 /* StandupsListFeature.swift */; };
 		0BEE227B2A9A1BDD0023C881 /* Standup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226D2A9A1BDD0023C881 /* Standup.swift */; };
 		0BEE227C2A9A1BDD0023C881 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226E2A9A1BDD0023C881 /* Meeting.swift */; };
 		0BEE227D2A9A1BDD0023C881 /* Attendee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE226F2A9A1BDD0023C881 /* Attendee.swift */; };
 		0BEE227E2A9A1BDD0023C881 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22702A9A1BDD0023C881 /* Theme.swift */; };
 		0BEE227F2A9A1BDD0023C881 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22732A9A1BDD0023C881 /* TrailingIconLabelStyle.swift */; };
+		0BEE22832A9A1E850023C881 /* StandupDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22812A9A1E850023C881 /* StandupDetailFeature.swift */; };
+		0BEE22842A9A1E850023C881 /* StandupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22822A9A1E850023C881 /* StandupDetailView.swift */; };
 		D2752B9A2A7A497900C8EB50 /* ScrumdingerAppTCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2752B992A7A497900C8EB50 /* ScrumdingerAppTCA.swift */; };
 		D2752B9E2A7A497B00C8EB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2752B9D2A7A497B00C8EB50 /* Assets.xcassets */; };
 		D2752BA12A7A497B00C8EB50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2752BA02A7A497B00C8EB50 /* Preview Assets.xcassets */; };
@@ -31,13 +33,15 @@
 		0BEE22642A9A1BDD0023C881 /* ThemePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		0BEE22672A9A1BDD0023C881 /* StandupFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupFormView.swift; sourceTree = "<group>"; };
 		0BEE22682A9A1BDD0023C881 /* StandupFormFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupFormFeature.swift; sourceTree = "<group>"; };
-		0BEE226A2A9A1BDD0023C881 /* StandupListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupListView.swift; sourceTree = "<group>"; };
-		0BEE226B2A9A1BDD0023C881 /* StandupListFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupListFeature.swift; sourceTree = "<group>"; };
+		0BEE226A2A9A1BDD0023C881 /* StandupsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupsListView.swift; sourceTree = "<group>"; };
+		0BEE226B2A9A1BDD0023C881 /* StandupsListFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupsListFeature.swift; sourceTree = "<group>"; };
 		0BEE226D2A9A1BDD0023C881 /* Standup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Standup.swift; sourceTree = "<group>"; };
 		0BEE226E2A9A1BDD0023C881 /* Meeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
 		0BEE226F2A9A1BDD0023C881 /* Attendee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendee.swift; sourceTree = "<group>"; };
 		0BEE22702A9A1BDD0023C881 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		0BEE22732A9A1BDD0023C881 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		0BEE22812A9A1E850023C881 /* StandupDetailFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupDetailFeature.swift; sourceTree = "<group>"; };
+		0BEE22822A9A1E850023C881 /* StandupDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandupDetailView.swift; sourceTree = "<group>"; };
 		D2752B962A7A497900C8EB50 /* ScrumdingerAppTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumdingerAppTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2752B992A7A497900C8EB50 /* ScrumdingerAppTCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerAppTCA.swift; sourceTree = "<group>"; };
 		D2752B9D2A7A497B00C8EB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,8 +80,9 @@
 		0BEE22652A9A1BDD0023C881 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0BEE22802A9A1E850023C881 /* StandupDetail */,
 				0BEE22662A9A1BDD0023C881 /* StandupForm */,
-				0BEE22692A9A1BDD0023C881 /* StandupList */,
+				0BEE22692A9A1BDD0023C881 /* StandupsList */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -91,13 +96,13 @@
 			path = StandupForm;
 			sourceTree = "<group>";
 		};
-		0BEE22692A9A1BDD0023C881 /* StandupList */ = {
+		0BEE22692A9A1BDD0023C881 /* StandupsList */ = {
 			isa = PBXGroup;
 			children = (
-				0BEE226B2A9A1BDD0023C881 /* StandupListFeature.swift */,
-				0BEE226A2A9A1BDD0023C881 /* StandupListView.swift */,
+				0BEE226B2A9A1BDD0023C881 /* StandupsListFeature.swift */,
+				0BEE226A2A9A1BDD0023C881 /* StandupsListView.swift */,
 			);
-			path = StandupList;
+			path = StandupsList;
 			sourceTree = "<group>";
 		};
 		0BEE226C2A9A1BDD0023C881 /* Models */ = {
@@ -125,6 +130,15 @@
 				0BEE22732A9A1BDD0023C881 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Labels;
+			sourceTree = "<group>";
+		};
+		0BEE22802A9A1E850023C881 /* StandupDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE22812A9A1E850023C881 /* StandupDetailFeature.swift */,
+				0BEE22822A9A1E850023C881 /* StandupDetailView.swift */,
+			);
+			path = StandupDetail;
 			sourceTree = "<group>";
 		};
 		D2752B8D2A7A497900C8EB50 = {
@@ -244,16 +258,18 @@
 			files = (
 				0BEE22772A9A1BDD0023C881 /* StandupFormView.swift in Sources */,
 				D2752B9A2A7A497900C8EB50 /* ScrumdingerAppTCA.swift in Sources */,
-				0BEE227A2A9A1BDD0023C881 /* StandupListFeature.swift in Sources */,
+				0BEE227A2A9A1BDD0023C881 /* StandupsListFeature.swift in Sources */,
 				0BEE22762A9A1BDD0023C881 /* ThemePicker.swift in Sources */,
 				0BEE22752A9A1BDD0023C881 /* CardView.swift in Sources */,
 				0BEE227D2A9A1BDD0023C881 /* Attendee.swift in Sources */,
 				0BEE227C2A9A1BDD0023C881 /* Meeting.swift in Sources */,
+				0BEE22842A9A1E850023C881 /* StandupDetailView.swift in Sources */,
 				0BEE22782A9A1BDD0023C881 /* StandupFormFeature.swift in Sources */,
 				0BEE227F2A9A1BDD0023C881 /* TrailingIconLabelStyle.swift in Sources */,
+				0BEE22832A9A1E850023C881 /* StandupDetailFeature.swift in Sources */,
 				0BEE22742A9A1BDD0023C881 /* Duration+Extension.swift in Sources */,
 				0BEE227E2A9A1BDD0023C881 /* Theme.swift in Sources */,
-				0BEE22792A9A1BDD0023C881 /* StandupListView.swift in Sources */,
+				0BEE22792A9A1BDD0023C881 /* StandupsListView.swift in Sources */,
 				0BEE227B2A9A1BDD0023C881 /* Standup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
